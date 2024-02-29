@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15620\viewh10520\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 La comunicazione tra laptop0 e laptop2 avviene con 4 hop. L\'92header del pacchetto IP contiene l\'92indirizzo ip sorgente(laptop0) e l\'92indirizzo IP destinazione(laptop2).\
+Il pacchetto viene trasmesso durante i vari hop nel livello di rete.\
+La comunicazione tra i vari Device si instaura partendo sempre dal livello fisico che in questo caso intende le porte ethernet\
+1 hop: Sul livello data troviamo il source MAC ovvero il laptop0 e destination MAC ovvero lo switch1.\
+2 hop: Sul livello data in questo caso troviamo come source MAC lo switch1 e come destination MAC 1 il router0.\
+3 hop: source MAC 2 router0 e destination MAC switch2.\
+4 hop: source MAC switch2 e destination MAC laptop2.\
+\
+Quando il pacchetto arriva nel router, avendo 2 indirizzi MAC, andr\'e0 nel MAC 1. Il router poi trasmetter\'e0 tramite il livello data il pacchetto al suo MAC Address 2 dal quale poi inizier\'e0 la trasmissione fino ad arrivare al laptop2.}
